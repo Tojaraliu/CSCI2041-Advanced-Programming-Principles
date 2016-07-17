@@ -1,0 +1,11 @@
+If you've ever written multi-threaded code, the thought of eight, sixteen,
+thirty-two, or even more processors running your program should fill you with
+dread.  Writing multi-threaded code correctly is hard!  But why is it so hard?
+Because it is hard to manage the state of variables when more than one CPU has
+access to them.
+And this is where functional programming comes in.  Functional programming, of
+the kind shown in SICP, is a way to write code that does not manage the state
+of variables, and could therefore be partitioned to run in parallel on as many
+processors as you like -- at least in theory.  In practice it might not be
+quite that trivial; but one thing is certain.  Moving functional programs to
+massively parallel system will be easier than moving non-functional programs.

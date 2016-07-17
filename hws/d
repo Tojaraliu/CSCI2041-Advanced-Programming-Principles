@@ -1,0 +1,9 @@
+Why is functional programming important?  Because Moore's law has started to falter.
+Not the part of the law that predicts that the number of transistors on a chip doubles
+every two years.  Thankfully, that part of the law seems to still be in effect.  The
+part that faltered is the part that says the speed of computers doubles every two
+years. 
+What this means is that our computers can still get faster, but only if we put multiple
+CPUs on a chip.  This is why we've seen all these multi-core processors showing up.
+And that means that programs that need greater speed will have to be able to take
+advantage of the multiple cores.
